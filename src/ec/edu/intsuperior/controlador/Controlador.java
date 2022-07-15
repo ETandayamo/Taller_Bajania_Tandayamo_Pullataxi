@@ -10,5 +10,5 @@ package ec.edu.intsuperior.controlador;
  * @author user
  */
 public class Controlador {
-    
+    Controlador met1=new Controlador();
 }
