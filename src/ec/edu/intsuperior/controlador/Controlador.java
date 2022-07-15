@@ -7,7 +7,7 @@ package ec.edu.intsuperior.controlador;
 
 /**
  *
- * @author user
+ * @author Desiree,Elian,Eva
  */
 public class Controlador {
     Controlador met1=new Controlador();

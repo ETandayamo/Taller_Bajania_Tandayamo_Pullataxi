@@ -11,7 +11,7 @@ import java.util.Date;
 
 /**
  *
- * @author user
+ * @author Desiree,ELian, Eva
  */
 public class Aplicacion {
     public static void main(String[ ]args) {
@@ -22,7 +22,7 @@ public class Aplicacion {
         fec.setMonth(10);
         fec.setDate(27);
         Persona ob1= new Persona("1753857604"," Elian","Francisco",""
-            + "Pullataxi", "Guanoluisa" ,"Quito Norte" ) ;
+            + "Pullataxi", "Guanoluisa" ,"Quito Norte", "elianFrancisco@gmail.com") ;
         System.out.println("Fecha de nacimiento: "+ob1.getFechaNacimiento().getYear()+"/"
           +""+ob1.getFechaNacimiento().getMonth()+"/"
         +""+ob1.getFechaNacimiento().getDate());

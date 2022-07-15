@@ -21,6 +21,17 @@ public class Persona {
     private Date fechaNacimiento;
     private String correoElectronico;
 
+    public Persona(String cedula, String nombre1, String nombre2, String apellido1, String apellido2, String direccion, Date fechaNacimiento, String correoElectronico) {
+        this.cedula = cedula;
+        this.nombre1 = nombre1;
+        this.nombre2 = nombre2;
+        this.apellido1 = apellido1;
+        this.apellido2 = apellido2;
+        this.direccion = direccion;
+        this.fechaNacimiento = fechaNacimiento;
+        this.correoElectronico = correoElectronico;
+    }
+    
     public Persona(String string, String _Elian, String francisco, String string0, String guanoluisa, String quito_Norte) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -29,6 +40,10 @@ public class Persona {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     
         }
+
+    public Persona(String string, String _Elian, String francisco, String string0, String guanoluisa, String quito_Norte, String elianFranciscogmailcom) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
     public String getCedula() {
         return cedula;
